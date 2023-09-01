@@ -16,7 +16,7 @@ export  function scroll(btn){
         }
 
     });
-
+//este evento nos va a permitir que nuestra pagina regrese a su posicion inicial.
     d.addEventListener("click",(e)=>{
         if(e.target.matches(btn)){
             w.scrollTo({
